@@ -74,19 +74,26 @@ p {
 
 }
 /***Tablet Devices***/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 991px) {
 
 	.col-md-6 {
 		width: 50%;
 		float: left;
 		position: relative;
 	}
+	.col-md-12 {
+		width: 100%;
+		float: left;
+		position: relative;
+	}
+
+}
 
 
 /***Small Devices***/
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 766px) {
 
-	.col-md-12 {
+	.col-sml-12 {
 		width: 100%;
 		float: left;
 		position: relative;
