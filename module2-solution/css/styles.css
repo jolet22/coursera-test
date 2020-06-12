@@ -31,7 +31,7 @@ h2 {
 p {
 	
 	width: 95%;
-	height: 140px;
+	height: 150px;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 10px;
@@ -74,7 +74,7 @@ p {
 
 }
 /***Tablet Devices***/
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
 
 	.col-md-6 {
 		width: 50%;
@@ -91,7 +91,7 @@ p {
 
 
 /***Small Devices***/
-@media (min-width: 375px) and (max-width: 766px) {
+@media (min-width: 375px) and (max-width: 767px) {
 
 	.col-sml-12 {
 		width: 100%;
