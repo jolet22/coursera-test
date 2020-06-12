@@ -82,6 +82,10 @@ p {
 		position: relative;
 	}
 
+
+/***Small Devices***/
+@media (min-width: 375px) and (max-width: 767px) {
+
 	.col-md-12 {
 		width: 100%;
 		float: left;
