@@ -1,0 +1,120 @@
+body {
+  font-size: 16px;
+  color: #000000;
+  background-color: #ccffff;
+  font-family: 'Avenir', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #66ccff;
+  border-radius: 0;
+  border: 0;
+  height: 100px;
+}
+
+.navbar-brand {
+  padding-top: 60px;
+  padding-left: 40px;
+}
+
+.navbar-brand h1 { /* Company Name */
+  font-family: 'Avenir', sans-serif;
+  color: #003366;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .02;
+  text-decoration: none;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #003366;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #ffcc00;/*yellow: rollover color*/
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+/* END HEADER */
+
+/* TILES */
+#main-content {
+  
+  width: 95%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  background-color: #999999;
+  border: 4px solid black;
+}
+#menu-category {
+  font-weight: bold;
+  font-size: 120%;
+}
+
+/********** Desktop devices only **********/
+@media (min-width: 1200px) {
+  .container {
+   /* height: 675px; */
+  }
+}
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* Header */
+    /*width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;*/
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container
+  }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
