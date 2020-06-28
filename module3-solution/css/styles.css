@@ -14,8 +14,9 @@ body {
 }
 
 .navbar-brand {
-  padding-top: 60px;
+  padding-top: 40px;
   padding-left: 40px;
+  padding-bottom: 40px;
 }
 
 .navbar-brand h1 { /* Company Name */
@@ -34,9 +35,11 @@ body {
 
 #nav-list {
   margin-top: 10px;
+  background-color: #66ccff;
 }
 #nav-list a {
   color: #003366;
+  font-size: 115%;
   text-align: center;
 }
 #nav-list a:hover {
@@ -45,11 +48,9 @@ body {
 #nav-list a span {
   font-size: 1.8em;
 }
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
-}
-.navbar-header button.navbar-toggle {
+.navbar-header button.navbar-toggle.icon-bar {
   clear: both;
+  background-color: #ffcc00;
   margin-top: -40px;
 }
 /* END HEADER */
